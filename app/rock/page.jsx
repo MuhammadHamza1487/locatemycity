@@ -20,7 +20,7 @@ useEffect(() => {
   const loadLocationData = async () => {
     try {
       setIsDataLoading(true);
-      const backendUrl = 'https://backend-production-f398.up.railway.apps';
+      const backendUrl = 'locatemycity-backend-production.up.railway.app'; // Replace with your backend URL
       console.log("Fetching from:", backendUrl);
 
       const response = await fetch(`${backendUrl}/api/locations`);
